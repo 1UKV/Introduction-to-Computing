@@ -1,0 +1,72 @@
+
+1)
+
+x=float(input("put x = "))
+y=float(input("put y = "))
+z=float(input("put z = "))
+
+avg= (x+y+z)/3
+
+print(" average = ",avg)
+
+
+2)
+
+tax_rate= 0.2
+std_d=10000
+dep_d=3000
+dep=float(input("no of dependent people in a family = "))
+gross=float(input("gross income = "))
+
+tax_income= gross - std_d - (dep_d * dep)
+
+tax= tax_income*tax_rate
+
+print(" tax income = ",tax_income)
+print(" tax = ",tax)
+
+
+3) 
+
+name =input("Enter student name :- ")
+sid = int(input("Enter sid :- "))
+gen = input("Enter gender :- ")
+course_name = input("Enter course name :- ")
+CGPA = float(input("Enter CGPA :- "))
+
+l = [sid, name, gen, course_name, CGPA]
+
+print("Student",l)
+
+
+
+4)
+
+marks=[]
+for j in range(5):
+    y=float(input("Enter marks: "))
+    marks.append(y)
+
+marks.sort()
+print(marks)
+
+
+5)
+
+# (a)
+
+lst = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'] 
+
+del lst[3]       #remving 4th position of list 
+print(lst)
+
+# (b)
+
+l = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'] 
+
+l.remove('Black')      #removing black
+l.remove('Pink')       #removing pink
+l.insert(3,'Purple')   #replacing purple
+
+print(l)
+
