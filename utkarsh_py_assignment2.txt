@@ -1,0 +1,73 @@
+1)
+
+stri="Python is a case sensitive language"
+
+print(len(stri))
+
+print(stri[35::-1])
+
+b=stri[10:27]
+print(b)
+
+print(stri.index('an'))
+
+print(stri.replace(' ',''))
+
+
+2)
+
+x=input("name of student = ")
+y=int(input("SID = "))
+z=input("branch = ")
+s=float(input("CGPA = "))
+
+print('''Hey,''',x,''' Here!
+My SID is ''' ,y ,
+'''I am from''' ,z,''' department and my CGPA is''',s )
+
+3)
+
+a=56
+b=10
+print(a&b)         #a
+
+print(a|b)         #b
+
+print(a^b)         #c
+
+print(a<<2)        #d
+print(b<<2)
+
+print(a>>2)        #e
+print(b>>4) 
+
+
+4)
+
+String = input("Enter a string = ")
+if "name" in String:
+    print("Yes")
+else:
+    print("No")
+
+
+5)
+
+a=int(input("first side = "))
+b=int(input("second side = "))
+c=int(input("third side = "))
+
+if a+b<c or b+c<a or c+a<b :
+    print("NO")
+else :
+    print("YES")
+
+6)
+
+a = int(input("Enter number 1 = "))
+b = int(input("Enter number 2 = "))
+x_or = a^b
+bx_or = str(bin(x_or))
+answer = bx_or.count("1")
+print(answer)
+
